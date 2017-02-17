@@ -59,6 +59,18 @@ module Yast
         end
         true
       end
+
+      def modified?
+        true
+      end
+
+      def modified
+        true
+      end
+
+      def export
+        {}
+      end
     end
   end
 end
